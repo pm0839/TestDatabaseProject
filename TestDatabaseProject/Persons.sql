@@ -4,7 +4,7 @@
     [Surname] NVARCHAR(50) NOT NULL, 
     [Name] NVARCHAR(50) NOT NULL, 
     [Patronimic] NVARCHAR(50) NULL, 
-    [dateOfBirt] DATE NULL
+    [DateOfBirth] DATE NULL
 )
 
 GO
@@ -60,4 +60,4 @@ EXEC sp_addextendedproperty @name = N'MS_Description',
     @level1type = N'TABLE',
     @level1name = N'Persons',
     @level2type = N'COLUMN',
-    @level2name = N'dateOfBirt'
+    @level2name = 'DateOfBirth'
