@@ -5,7 +5,7 @@
     [Name] NVARCHAR(50) NOT NULL, 
     [Patronimic] NVARCHAR(50) NULL, 
     [DateOfBirth] DATE NULL, 
-    [DateInput] DATETIME NULL
+    [DateInput] DATETIME NULL  CONSTRAINT
 )
 
 GO
